@@ -1,0 +1,28 @@
+
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+   min-height:100vh;
+
+
+}
+section{
+    display: flex;
+    flex:1;
+    
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(92, 18, 211);
+    margin: 20px;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
