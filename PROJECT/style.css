@@ -1,0 +1,295 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+
+
+  @media (max-width: 768px) {
+    
+    body {
+        font-size: 8px; 
+    }
+
+    img {
+        min-width: 50px; 
+        min-height: 50px; 
+    }
+    main{
+        max-width: 60em;
+        height: 100em;
+        padding: 9.375em;
+        margin: 0 auto;
+        background-color: #fff;
+        box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.1);
+    
+    }
+    
+   .d3-section{
+    margin: 8em 0;
+   }
+
+   .d4-section{
+    margin:5em 0;
+   }
+    
+
+
+    .article-txt{
+        margin: 5em 0;
+    }
+
+    
+
+    
+}
+
+@media (min-width: 769px) {
+    
+    body {
+        font-size: 18px; 
+    }
+
+    img {
+        min-width: 100px; 
+        min-height: 100px; 
+    }
+}
+
+/* Base font */
+body {
+    font-family: "Roboto Slab", "Arial", "Helvetica Neue", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color:#3fad00;
+    color: #000000;
+    text-align: center;
+    padding: 0.625em 0;
+
+}
+
+.header1{
+   
+    margin:  0.625em;
+    padding: 0.3125em;
+  text-align: center;
+
+    
+}
+
+nav ul {
+    list-style-type: style;
+}
+
+
+/* Orgoanization for Nav bar */
+nav ul li {
+    display: inline;
+    margin-right: 1.25em;
+    gap:1.25em;
+}
+
+
+nav a {
+    
+    color: #000000;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #24baff;
+}
+
+main {
+    max-width: 60em;
+    max-height: fit-content;
+    padding: 9.375em;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.1);
+    grid-auto-columns: auto;
+}
+
+/* Base for sections */
+section {
+    display: flex;
+height: 37.5em;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.75em;
+flex-shrink: 0;
+align-self: stretch;
+letter-spacing:normal;
+word-spacing: 0em;
+}
+
+/* Article for details page 2 */
+.article-txt{
+    display: flex;
+    height: 18.75em;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.75em;
+    flex-shrink: 0;
+    align-self: stretch;
+    letter-spacing:normal;
+}
+
+/* Base format for article */
+article{
+    display: flex;
+height: 37.5em;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.75em;
+flex-shrink: 0;
+align-self: stretch;
+letter-spacing:normal;
+}
+
+/* Section for homepage */
+.Home{
+    display: flex;
+    height: 25em;
+    
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.75em;
+    flex-shrink: 0;
+    align-self: stretch;
+    letter-spacing:normal;
+
+    
+}
+
+/* Base footer */
+footer {
+    background-color: #3fad00;
+    color: #000000;
+    text-align: center;
+    padding: 0.9375em 0; 
+    font-size: 0.875em; 
+    align-self: flex-end;
+}
+
+/* Form for contact page */
+form {
+    display:flex;
+    align-items:flex-start;
+    flex-direction: column;
+    padding: 0.625em 0;
+    letter-spacing:normal;
+    line-height: 2.5;
+}
+
+/* Sectoin for contact page */
+.contact-info {
+    display: flex;
+    
+height: 9.375em;
+flex-direction: column;
+align-items: center;
+gap: 1.75em;
+flex-shrink: 0;
+align-self: stretch;
+letter-spacing:normal;
+}
+
+
+
+.home-logo {
+    display:flex ;
+    max-width: 6.25em;
+    max-height: 6.25em;
+
+    
+    float: left;
+   
+    
+}
+
+
+
+.home-image{
+    max-width: 28.9375em; 
+    max-height: 15.6875em;
+     
+     border-width:  0.125em;
+  border-style: solid;
+  border-color: #000000;
+
+  margin: 0.625em;
+  padding: 0.3125em; 
+
+     display: block;
+     margin: 0 auto;
+
+     
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+     
+    
+}
+
+/* Format for Form */
+.contact-form{
+    display: flex;
+    
+    height: 21.875em;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.75em;
+    flex-shrink: 0;
+    align-self: stretch;
+    letter-spacing:normal;
+}
+
+.d3-spacing{
+    text-indent: 5em;
+    word-spacing: 0em;
+}
+
+
+a.web-links:link {
+    color: #24baff;
+  }
+
+  a.web-links:active {
+    color: #fc1d1d;
+  }
+
+  a.web-links:visited {
+    color: #3fad00;
+  }
+  
+  .about-me{
+    max-width: 40em;
+    max-height: 50em;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.75em;
+    flex-shrink: 0;
+  }
+
+  .cookie-message {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.625em;
+    z-index: 9999;
+}

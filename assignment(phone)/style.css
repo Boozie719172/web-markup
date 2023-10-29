@@ -4,7 +4,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
  
-/* Basic styling for the header */
+/* Basic styling for the header(use flex wrap here) */
 header {
     background-color: #333;
     color: #fff;
@@ -34,7 +34,10 @@ nav a {
 }
  
 .search-box {
-    display: flex;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-wrap: wrap;
 }
  
 .search-box input[type="text"] {
@@ -124,4 +127,9 @@ footer {
     margin-left: 10px;
     color: white;
 }
- 
+
+@media (max-width: 768px) {
+    .search-box{display: none;}
+    .photo-section{display: none;}
+}
+article{flex-basis:calc(100% - 50px)}
