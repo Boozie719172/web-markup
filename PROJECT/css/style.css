@@ -156,8 +156,11 @@ align-self: stretch;
 letter-spacing:normal;
 }
 
+
 /* Section for homepage */
 .Home{
+   
+    
     display: flex;
     height: 25em;
     
@@ -168,16 +171,18 @@ letter-spacing:normal;
     align-self: stretch;
     letter-spacing:normal;
    
-    p::first-letter {
-        font-size: 150%;
-        color: #000000; 
-    }
-
-    .parent > a {
-        
-        color: rgb(75, 75, 187);
-    }
     
+    
+}
+
+.Home p::first-letter {
+    font-size: 150%;
+    color: #000000;
+}
+
+.Home > a {
+        
+    color: rgb(75, 75, 187);
 }
 
 /* Base footer */
